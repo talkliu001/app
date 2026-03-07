@@ -1,0 +1,35 @@
+{
+  "name": "yexue-detection",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --no-cache",
+    "update-icon": "node scripts/update-app-icon.js",
+    "build:android": "cd android && .\\gradlew.bat assembleRelease",
+    "build:apk": "powershell -ExecutionPolicy Bypass -File build-apk.ps1"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "@react-native-clipboard/clipboard": "^1.14.1",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "react": "18.2.0",
+    "react-native": "0.72.17",
+    "react-native-safe-area-context": "4.6.3",
+    "react-native-screens": "~3.22.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "@babel/runtime": "^7.22.0",
+    "@react-native/metro-config": "0.72.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jimp": "^1.6.0",
+    "metro-react-native-babel-preset": "0.76.0"
+  }
+}

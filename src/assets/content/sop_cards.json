@@ -1,0 +1,33 @@
+[
+  {
+    "id": "s4_morning_01",
+    "stage": ["S4"],
+    "slot": "morning",
+    "title": "不叫早",
+    "icon": "sun_sleep",
+    "summary": "允许睡到自然醒，早餐放门口。",
+    "detail": "孩子电量极低时，睡眠是第一位的充电方式。强行叫醒会消耗仅存的能量。",
+    "script": "（无需说话，轻轻放下早餐即可）",
+    "conceptIds": ["battery_theory", "life_restart"]
+  },
+  {
+    "id": "s4_afternoon_01",
+    "stage": ["S4"],
+    "slot": "afternoon",
+    "title": "自我反思",
+    "icon": "heart",
+    "summary": "记录唠叨冲动，创造微小被需要感。",
+    "script": "今天忍住没提学习，你已经做得很好了。",
+    "conceptIds": ["gentle_firm"]
+  },
+  {
+    "id": "s2_evening_03",
+    "stage": ["S2", "S3"],
+    "slot": "evening",
+    "title": "睡眠熔断",
+    "icon": "moon_shield",
+    "summary": "到点必须关灯，作业责任归还。",
+    "script": "作业没写完明天确实会麻烦，但身体垮了更麻烦。今晚先睡，妈妈陪你面对明天。",
+    "conceptIds": ["gentle_firm", "return_responsibility"]
+  }
+]

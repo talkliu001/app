@@ -1,0 +1,16 @@
+node_modules
+*.log
+.env
+.env.*
+android/app/build
+android/build
+android/.gradle
+*.apk
+*.aab
+ios/build
+*.xcuserstate
+.expo
+coverage
+.cursor
+jdk-*
+jdk*.zip
